@@ -1,0 +1,11 @@
+.Header{
+    display: flex;
+    width: 330px;
+
+    
+}
+
+.header__img img{
+    height: 70px;
+    width: 65px;
+}
