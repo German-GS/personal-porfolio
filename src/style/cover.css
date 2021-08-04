@@ -1,0 +1,20 @@
+.coverPage__img{
+    display: flex;
+}
+
+.coverPage__img img{
+    width: 100%;
+}
+
+.coverPage__footer__img{
+    display: flex;
+    background-color: black;
+    color: var(--background-color);
+    padding: 5px;
+}
+
+.coverPage__footer__img p{
+    display: flex;
+    text-align: center;
+
+}

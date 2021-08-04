@@ -1,0 +1,29 @@
+:root{
+    --background-color: #F8F8F8;
+    --red: #750707;
+    --blac: #000;
+}
+
+.galery{
+    position: relative;
+    color: white;
+}
+
+.card{
+    position: relative;
+    height: 420px;
+    width: 320px;
+    margin: 20px;
+    padding: 20px;
+    /* align-items: flex-end; */
+    border-radius: 14px;
+    background-color: var(--red);
+}
+
+.card__img img{
+    height: 240px;
+    position: relative;
+    display: flex;
+    width: 200px;
+    border-radius: 25px;
+}

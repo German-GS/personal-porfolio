@@ -1,6 +1,7 @@
 :root{
-    --background-color: #ffffff;
+    --background-color: #F8F8F8;
     --red: #750707;
+    --blac: #000;
 
 }
 
@@ -14,12 +15,16 @@
 .Header{
     display: flex;
     background-color: var(--background-color);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
         
 }
 
 .header__logo img{
     display: flex;
-    margin: 20px 0 0 50px;
+    margin: 2px 0 0 50px;
     height: 90px;
     width: 70px;
 
@@ -48,10 +53,10 @@
 }
 
 
-@media (max-width:600px){
+@media only screen and (max-width:600px){
     .header__logo img{
         display: flex;
-        margin: 5px 0 0 7px;
+        margin: 2px 0 0 7px;
         height: 75px;
         width: 60px;
     
@@ -67,16 +72,16 @@
     .header__navBar{
         position: relative;
         display: flex;
-        right: -0.3rem;
+        right: 0rem;
         align-items: center;
     }
 
 }
 
-@media (max-width:768px){
+@media only screen and (min-width:768px){
     .header__logo img{
         display: flex;
-        margin: 10px 0 0 20px;
+        margin: 2px 0 0 20px;
         height: 90px;
         width: 70px;
     
@@ -92,7 +97,17 @@
     .header__navBar{
         position: relative;
         display: flex;
-        right: -23rem;
+        right: -22rem;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+    .header__navBar{
+        position: relative;
+        display: flex;
+        right: -64rem;
         align-items: center;
     }
 
